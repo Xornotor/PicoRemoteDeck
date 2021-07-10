@@ -1,2 +1,3 @@
 # PicoRemoteDeck
-StreamDeck a controle remoto com Raspberry Pi Pico
+
+Projeto de StreamDeck com controle remoto infra-vermelho
