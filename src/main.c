@@ -79,13 +79,12 @@ static void send_hid_report(uint8_t report_id, bool key_ready)
         uint8_t keycode[6] = { 0 };
         switch(last_result){
           case 0xFFA25D: //Power
-            keycode[0] = HID_KEY_F24;
             break;
           case 0xFFE21D: //Raio
-            keycode[0] = HID_KEY_F13;
+            keycode[0] = HID_KEY_F12;
             break;
           case 0xFFA857: //OK
-            keycode[0] = HID_KEY_F14;
+            keycode[0] = HID_KEY_F11;
             break;
           case 0xFF02FD: //Cima
             break;
@@ -96,31 +95,31 @@ static void send_hid_report(uint8_t report_id, bool key_ready)
           case 0xFF906F: //Direita
             break;
           case 0xFF30CF: //A
-            keycode[0] = HID_KEY_F15;
+            keycode[0] = HID_KEY_A;
             break;
           case 0xFF18E7: //B
-            keycode[0] = HID_KEY_F16;
+            keycode[0] = HID_KEY_B;
             break;
           case 0xFF7A85: //C
-            keycode[0] = HID_KEY_F17;
+            keycode[0] = HID_KEY_C;
             break;
           case 0xFF10EF: //D
-            keycode[0] = HID_KEY_F18;
+            keycode[0] = HID_KEY_D;
             break;
           case 0xFF38C7: //E
-            keycode[0] = HID_KEY_F19;
+            keycode[0] = HID_KEY_E;
             break;
           case 0xFF5AA5: //F
-            keycode[0] = HID_KEY_F20;
+            keycode[0] = HID_KEY_F;
             break;
           case 0xFF42BD: //G
-            keycode[0] = HID_KEY_F21;
+            keycode[0] = HID_KEY_G;
             break;
           case 0xFF4AB5: //H
-            keycode[0] = HID_KEY_F22;
+            keycode[0] = HID_KEY_H;
             break;
           case 0xFF52AD: //I
-            keycode[0] = HID_KEY_F23;
+            keycode[0] = HID_KEY_I;
             break;
           default:
             decode_deu_certo = 0;
