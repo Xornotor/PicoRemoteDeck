@@ -1,3 +1,3 @@
-# PicoRemoteDeck
+# Pico-Keyboard
 
-Projeto de StreamDeck com controle remoto infra-vermelho
+Testes com TinyUSB e Raspberry Pi Pico.
