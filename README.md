@@ -1,2 +1,3 @@
-# PicoRemoteDeck
-StreamDeck a controle remoto com Raspberry Pi Pico
+# Pico-Keyboard
+
+Testes com TinyUSB e Raspberry Pi Pico.
